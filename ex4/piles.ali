@@ -1,0 +1,33 @@
+V "GNAT Lib v12"
+A -g
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+
+U piles%b		piles.adb		b3490886 NE OO PK GE
+
+U piles%s		piles.ads		81957f37 BN EE NE OO PK GE
+
+D piles.ads		20241204115104 81957f37 piles%s
+D piles.adb		20241204115103 32dc77b1 piles%b
+D system.ads		20220819080952 a2da961d system%s
+G a e
+G c Z s b [piles standard 5 9 none]
+X 1 piles.ads
+2i4 Taille{positive} 19r30 2|28r15
+3+9 Element 12r27 14r21 19r41 2|17r27 26r21
+5k9*Piles 2z4 3z9 19E9 24l5 24e10 2|4b14 44l5 44t10
+7X4*Pile_Pleine 2|29r16
+7X17*Pile_Vide 2|20r16 38r16
+10U14*Vider 2|7b14 10l8 10t13
+11V13*Est_Vide{boolean} 2|12b13 15l8 15t16
+12V13*Sommet{3+9} 2|17b13 23l8 23t14
+13U14*Empiler 14>10 2|25b14 33l8 33t15
+14*10 V{3+9} 2|26b10 32r22
+15U14*Depiler 2|35b14 41l8 41t15
+19A9 Table(3+9)<integer> 22r14
+21i4 Nb{natural} 2|9m7 14r14 19r10 22r22 28r10 31m7 31r13 32r15 37r10 40m7
+. 40r12
+22a4 Donnees{19A9} 2|22r14 32m7
+
